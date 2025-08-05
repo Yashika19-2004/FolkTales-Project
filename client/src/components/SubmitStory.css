@@ -1,0 +1,90 @@
+.submit-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: #fff8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.submit-container h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-form label {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.submit-form input,
+.submit-form select,
+.submit-form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.submit-form button {
+  background-color: #ff7f50;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-form button:hover {
+  background-color: #ff5722;
+}
+
+.voice-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.voice-input-wrapper button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.listening-indicator {
+  color: #0c8f2a;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.listening-indicator {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 0.1; }
+  50% { opacity: 1; }
+  100% { opacity: 0.1; }
+}
+
+.mic-controls {
+  margin: 10px 0;
+}
